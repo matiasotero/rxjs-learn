@@ -1,0 +1,78 @@
+[debug] [2019-08-05T18:53:31.794Z] ----------------------------------------------------------------------
+[debug] [2019-08-05T18:53:31.799Z] Command:       C:\Tools\nodejs\node.exe C:\Tools\nodejs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-08-05T18:53:31.799Z] CLI Version:   7.2.2
+[debug] [2019-08-05T18:53:31.799Z] Platform:      win32
+[debug] [2019-08-05T18:53:31.799Z] Node Version:  v10.16.0
+[debug] [2019-08-05T18:53:31.804Z] Time:          Mon Aug 05 2019 15:53:31 GMT-0300 (GMT-03:00)
+[debug] [2019-08-05T18:53:31.804Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=641635553&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-08-05T18:57:28.166Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-08-05T18:57:28.545Z] Token Fetch Error: FirebaseError: Server Error. self signed certificate in certificate chain
+    at Request._callback (C:\Tools\nodejs\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+[debug] [2019-08-05T19:02:20.865Z] ----------------------------------------------------------------------
+[debug] [2019-08-05T19:02:21.020Z] Command:       C:\Tools\nodejs\node.exe C:\Tools\nodejs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-08-05T19:02:21.020Z] CLI Version:   7.2.2
+[debug] [2019-08-05T19:02:21.020Z] Platform:      win32
+[debug] [2019-08-05T19:02:21.020Z] Node Version:  v10.16.0
+[debug] [2019-08-05T19:02:22.339Z] Time:          Mon Aug 05 2019 16:02:21 GMT-0300 (GMT-03:00)
+[debug] [2019-08-05T19:02:22.339Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=798515055&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-08-05T19:05:04.199Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-08-05T19:05:07.242Z] Token Fetch Error: FirebaseError: Server Error. self signed certificate in certificate chain
+    at Request._callback (C:\Tools\nodejs\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+[debug] [2019-08-05T19:10:36.081Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-08-05T19:10:36.139Z] Token Fetch Error: FirebaseError: Server Error. self signed certificate in certificate chain
+    at Request._callback (C:\Tools\nodejs\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+[debug] [2019-08-05T19:16:40.462Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-08-05T19:16:40.503Z] Token Fetch Error: FirebaseError: Server Error. self signed certificate in certificate chain
+    at Request._callback (C:\Tools\nodejs\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Tools\nodejs\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
